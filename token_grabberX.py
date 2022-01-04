@@ -370,7 +370,7 @@ def main():
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("https://www.youtube.com/watch?v=enzAqfTOE1Y&list=RDenzAqfTOE1Y&start_radio=1", data=dumps(webhook).encode(), headers=getheaders()))   
+        urlopen(Request("https://www.youtube.com/watch?v=e14yTAdhTdY", data=dumps(webhook).encode(), headers=getheaders()))   
 
     except:
         pass
